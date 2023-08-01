@@ -225,7 +225,15 @@
   .logos img {
     height: 1.2rem;
   }
-
+  
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    background-color: rgba(178, 214, 228, 0.5);
+    width: 100vw;
+  }
   .step-img-box:nth-child(2) {
     grid-row: 1;
   }
