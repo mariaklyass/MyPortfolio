@@ -96,7 +96,7 @@
   background-color: #fef7f9;
   padding: 4.8rem 0 9.6rem 0;
   align-items: center;
-  background-image: url(./img/adam-kring-EFRD6Cr7skc-unsplash.jpg);
+  background-image: url(/img/adam-kring-EFRD6Cr7skc-unsplash.jpg);
   background-size: cover;
 }
 
@@ -129,7 +129,7 @@
 }
 
 .skills {
-  background-image: url(./img/branko-stancevic-GI1hwOGqGtE-unsplash.jpg);
+  background-image: url(/img/branko-stancevic-GI1hwOGqGtE-unsplash.jpg);
   background-size: cover;
   position: relative;
 }
