@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Text for SEO, first thing people see when searching smth in the internet"
+    />
+    <link rel="icon" href="img/favicon-small.png" />
+    <link rel="apple-touch-icon" href="img/favicon-apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="script.js"></script>
+
+    <title>Maria Klyass &mdash; Portfolio</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#"> <img class="logo" src="" alt="" /></a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li><a class="main-nav-link" href="#skills">Skills & Tools</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#how">Projects</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Maria Klyass <br />
+              Frontend Developer
+            </h1>
+            <p class="hero-description">
+              Hello! My name is Maria, and I build things on the Internet.
+            </p>
+            <a href="#contacts" class="btn btn--full margin-right-sm">Contacts</a>
+            <a href="#how" class="btn btn--outline">My Projects &darr;</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">My recents Projects</span>
+          <h2 class="heading-secondary">
+            This is some of the stuff I've build
+          </h2>
+        </div>
+
+        <!-- STEP 01 -->
+        <div class="container grid grid--2-cols grid--padding grid--center-v">
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">SCULPT</h3>
+            <p class="step-description">
+              This is a fully responsive single page website. <br />Throughout
+              creating this website, I learned how to use mobile navigation,
+              smooth scrolling, sticky navigation bar; apply CSS grid, Flexbox
+              and absolute positioning in tricky layouts.
+            </p>
+            <a
+              href="https://mariaklyass.github.io/SCULPT-website/ target='_blank'"
+              class="btn btn--full margin-right-sm"
+              >View Live</a
+            >
+            <a
+              href="https://github.com/mariaklyass/SCULPT-website target='_blank'"
+              class="btn btn--outline"
+              >View Code</a
+            >
+          </div>
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="img/Project1.png"
+              alt="SCULPT project"
+            />
+          </div>
+        </div>
+        <!-- STEP 02 -->
+        <div class="container grid grid--2-cols grid--padding grid--center-v">
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="img/Project2.png"
+              alt="Debitbox app"
+            />
+          </div>
+
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">
+              DEBITBOX
+            </h3>
+            <p class="step-description">
+              For tryout session: login: js, password: 1111<br>
+              Fake bank application for mobile banking. To mimic the logic of a banking app, where you can log in, see the balance, transfer money, request a loan and delete the account, I had to use various array methods (like map, filter, reduce) and deal with DOM manipulation.
+            </p>
+            <a
+              href="https://mariaklyass.github.io/DebitboxApp/ target='_blank'"
+              class="btn btn--full margin-right-sm"
+              >View Live</a
+            >
+            <a
+              href="https://github.com/mariaklyass/DebitboxApp target='_blank'"
+              class="btn btn--outline"
+              >View Code</a
+            >
+          </div>
+        </div>
+
+        <!-- STEP 03 -->
+        <div class="container grid grid--2-cols grid--center-v">
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">
+              Confirm a booking - and you're good to go
+            </h3>
+            <p class="step-description">
+              Website that can be used as visual notes on a map. To implement features like clicking on the map, rendering current location, adding notes and storing them, I used APIs. <br> App's architecture required usage of OOP principles, so I used ES6 Classes for that.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="img/Project3.png"
+              alt="IPhone app confirmation screen"
+            />
+          </div>
+          <a
+              href="https://mariaklyass.github.io/OlimHadashim/ target='_blank'"
+              class="btn btn--full margin-right-sm"
+              >View Live</a
+            >
+            <a
+              href="https://github.com/mariaklyass/OlimHadashim target='_blank'"
+              class="btn btn--outline"
+              >View Code</a
+            >
+        </div>
+      </section>
+
+      <section class="section-about" id="about">
+        <div class="container center-text">
+          <span class="subheading">About</span>
+          <h2 class="heading-secondary">
+            Hi! I'm Maria. I'm a Frontend Developer, fascinated with both technical and visual aspects of web development. I use HTML, CSS and JavaScript in my work and currently I'm diving deep into React.<br>I sincerely enjoy learning new stuff. In programming I constantly come across something that wows and inspires to keep on learning. And it's a long journey ahead of me:) I also like sports and cooking.
+          </h2>
+        </div>
+
+        <span class="heading-secondary">My Skills and Toolset:</span>
+        <div class="skills" id="skills">
+
+          <div class="activities">
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>HTML5</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>CSS3</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>JavaScript</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>React(in progress)</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Git, Github</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>VS Code</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Responsive design</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      
+
+        <div class="container grid grid--4-cols" id="contacts">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="call-outline"></ion-icon>
+            <p class="feature-title">054-492-1414</p>
+            <p class="feature-text">
+              Call me or use WhatsApp to contact me via this number.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="mail-outline"></ion-icon>
+            <p class="feature-title">klyassmaria@gmail.com</p>
+            <p class="feature-text">
+              My e-mail address.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="send-outline"></ion-icon>
+            <p class="feature-title">@mariaklyass</p>
+            <p class="feature-text">
+              My nickname in Telegram
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="logo-skype"></ion-icon>
+            <p class="feature-title">klyass</p>
+            <p class="feature-text">
+              My Skype username.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+    <footer class="footer">
+     
+
+          <p class="copyright">
+            &copy; <span class="year">2027</span> Designed as a personal portfolio.
+          </p>
+        
+      </div>
+    </footer>
+  </body>
+</html>
